@@ -1,0 +1,25 @@
+@mixin setCenter() {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+@mixin setInsetShadow($x: 10px, $y: 20px, $f: 20px) {
+    -moz-box-shadow: inset $x $y $f rgba($color-dark, 0.5);
+    -webkit-box-shadow: inset $x $y $f rgba($color-dark, 0.5);
+    box-shadow: inset $x $y $f rgba($color-dark, 0.5);
+}
+
+@mixin setShadow($x: 10px, $y: 20px, $f: 20px) {
+  filter: drop-shadow($x $y $f rgba($color-dark, 0.5))
+}
+
+@mixin setTopDome($r) {
+    border-top-left-radius: $r;
+    border-top-right-radius: $r;
+}
+
+@mixin setFormItem() {
+    transition-duration: 0.3s;
+}

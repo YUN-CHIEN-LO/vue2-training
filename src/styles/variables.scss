@@ -1,0 +1,17 @@
+// Vuetify 變數
+@import '~vuetify/src/styles/settings/_variables.scss';
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap');
+
+$color-primary: #FF884B;
+$color-secondary: #FFC764;
+$color-danger: #FF577F;
+$color-success: #80ED99;
+$color-info: #51EAEA;
+$color-light: #FFFDE1;
+$color-dark: #03081f;
+$color-grey: rgb(112, 112, 112);
+$color-white: #fff;
+$color-black: #000;
+@import "./mixins.scss";
